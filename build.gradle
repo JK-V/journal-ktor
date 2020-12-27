@@ -22,6 +22,10 @@ mainClassName = "io.ktor.server.netty.EngineMain"
 //    test.resources.srcDirs = ['testresources']
 //}
 
+tasks.create("stage") {
+    dependsOn("installDist")
+}
+
 repositories {
     mavenLocal()
     jcenter()
