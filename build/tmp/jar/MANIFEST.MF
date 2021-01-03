@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.jkv.journal.ApplicationKt
+Main-Class: com.jkv.journal.ApplicationKt.module
 
